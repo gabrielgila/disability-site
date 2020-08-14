@@ -4,7 +4,6 @@ function Fifth() {
 
     const divStyle = {
         height: '100vh',
-        backgroundColor: 'white',
         textAlign: 'center',
         alignContent: 'center',
         display: 'flex',
@@ -12,13 +11,17 @@ function Fifth() {
         alignItems: 'center'
     };
 
+    const imgStyle = {
+        height: '50vh'
+    };
+
     return(
         <div style={divStyle}>
             <div className="row">
                 <div className="col-12">
-                    <h3>IMAGEN VISUAL</h3>
-                    <p>COMPONENTE 5</p>
-                    <hr />
+                    <img className="img-fluid" style={imgStyle}
+                         src={`${process.env.PUBLIC_URL}/assets/images/image_vision.png`}
+                             alt="InicioImagen"/>
                 </div>
             </div>
         </div>

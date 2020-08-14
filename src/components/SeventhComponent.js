@@ -4,7 +4,6 @@ function Seventh() {
 
     const divStyle = {
         height: '100vh',
-        backgroundColor: 'white',
         textAlign: 'center',
         alignContent: 'center',
         display: 'flex',
@@ -12,18 +11,23 @@ function Seventh() {
         alignItems: 'center'
     };
 
+    const imgStyle = {
+        height: '80vh'
+    };
+
     return(
         <div style={divStyle}>
             <div className="row">
                 <div className="col-12">
-                    <h3>IMAGEN FISICO / MOTORA</h3>
-                    <p>COMPONENTE 7</p>
-                    <hr />
+                    <img className="img-fluid" style={imgStyle}
+                         src={`${process.env.PUBLIC_URL}/assets/images/image_physic.png`}
+                         alt="InicioImagen"/>
                 </div>
             </div>
         </div>
     );
 }
+
 
 export default Seventh;
 

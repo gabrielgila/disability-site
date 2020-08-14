@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
 import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { ReactComponent as Logo } from '../logo/Unicen_logo2.svg';
 
 const Header = (props) => {
     const [isOpen, setIsOpen] = useState(false);
-
     const toggle = () => setIsOpen(!isOpen);
 
     return (
         <div>
             <Navbar fixed="top" light expand="md">
-                <NavbarBrand href="/">Logo?</NavbarBrand>
+                <NavbarBrand href="/" className="mr-auto">
+                    <Logo height={60} />
+                </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
