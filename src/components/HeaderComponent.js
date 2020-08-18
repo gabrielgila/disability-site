@@ -35,6 +35,6 @@ const Header = (props) => {
             </Navbar>
         </div>
     );
-}
+};
 
 export default Header;
