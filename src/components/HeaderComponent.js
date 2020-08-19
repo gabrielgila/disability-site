@@ -9,7 +9,7 @@ const Header = (props) => {
     return (
         <div>
             <Navbar fixed="top" light expand="md">
-                <NavbarBrand href="/" className="mr-auto">
+                <NavbarBrand href="/" className="">
                     <Logo height={60} />
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
