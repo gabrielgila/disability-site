@@ -9,7 +9,7 @@ function Tenth() {
                 <div className="col-0">
                     <div className="col-12 container">
                         <h5 className="strategy">ESTRATEGIAS DE</h5>
-                        <h5 className="strategy">INCLUSIÓN PARA</h5>
+                        <h5 className="strategy">INCLUSIÓgN PARA</h5>
                         <h5 className="strategy">PERSONAS CON</h5>
                         <img className="arrow"
                              src={`${process.env.PUBLIC_URL}/assets/images/arrow_white.png`}
