@@ -17,14 +17,6 @@ function Third() {
         position: 'relative'
     };
 
-    const arrowStyle = {
-        position: 'absolute',
-        marginTop: '50%',
-        marginLeft: '50%',
-        transform: 'translate(-69%,-70%)',
-        height: '80vh',
-    };
-
     return(
         <div style={divStyle}>
             <div className="row justify-content-center" >

@@ -83,7 +83,9 @@ function Fourth() {
                         <hr />
                     </div>
                     <div className="pt-3">
-                        <Button color="secondary">Descargar Guía</Button>{' '}
+                        <button className="btn btn-primary btn-round">
+                            Descargar Guía
+                        </button>
                     </div>
                 </div>
             </div>

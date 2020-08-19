@@ -12,14 +12,14 @@ function Seventh() {
     };
 
     const imgStyle = {
-        height: '80vh'
+        height: '55vh'
     };
 
     return(
         <div style={divStyle}>
             <div className="row">
                 <div className="col-12">
-                    <img className="img-fluid" style={imgStyle}
+                    <img className="" style={imgStyle}
                          src={`${process.env.PUBLIC_URL}/assets/images/image_physic.png`}
                          alt="InicioImagen"/>
                 </div>

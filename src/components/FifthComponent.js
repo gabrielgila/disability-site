@@ -12,7 +12,7 @@ function Fifth() {
     };
 
     const imgStyle = {
-        height: '50vh'
+        height: '55vh'
     };
 
     return(
