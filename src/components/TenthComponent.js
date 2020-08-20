@@ -1,9 +1,9 @@
 import React from 'react';
-import {Button} from "reactstrap";
+import { Button } from "reactstrap";
 
 function Tenth() {
 
-    return(
+    return (
         <div className="global-tenth-component">
             <div className="row justify-content-center">
                 <div className="col-0">
@@ -12,8 +12,8 @@ function Tenth() {
                         <h5 className="strategy">INCLUSIÓgN PARA</h5>
                         <h5 className="strategy">PERSONAS CON</h5>
                         <img className="arrow"
-                             src={`${process.env.PUBLIC_URL}/assets/images/arrow_white.png`}
-                             alt="Flecha Blanca"/>
+                            src={`${process.env.PUBLIC_URL}/assets/images/arrow_white.png`}
+                            alt="Flecha Blanca" />
                     </div>
                     <h1 className="disability-word">DISCAPACIDAD</h1>
                     <h1 className="disability-word-heavy">VISCERAL</h1>
@@ -22,11 +22,11 @@ function Tenth() {
                 <div className="col-10">
                     <div>
                         <p className="paragraph">Una persona con discapacidad (PCD) visceral
-                            presenta una alteración en la dinámica de las
-                            funciones y estructuras corporales de los sistemas
-                            cardiovascular, hematológica, inmunológica,
-                            respiratoria, digestiva, metabólica, endocrina y
-                            genitourinaria.
+                        presenta una alteración en la dinámica de las
+                        funciones y estructuras corporales de los sistemas
+                        cardiovascular, hematológica, inmunológica,
+                        respiratoria, digestiva, metabólica, endocrina y
+                        genitourinaria.
                         </p>
                         <hr />
                     </div>
