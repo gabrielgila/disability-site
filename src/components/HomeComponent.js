@@ -10,7 +10,8 @@ import Eight from "./EightComponent";
 import Nineth from "./NinethComponent";
 import Tenth from "./TenthComponent";
 import Fade from 'react-reveal/Fade';
-import { animateScroll as scroller } from 'react-scroll';
+
+import Dots from './DotsComponent';
 
 class Home extends React.Component {
 
@@ -19,43 +20,57 @@ class Home extends React.Component {
         this.state = {
             cursor: 1,
             max: 5,
-            min: 1
+            min: 1,
+            pc: true,
+            swipping: false
         }
     }
 
     handleScroll = (e) => {
-        console.log(e);
+        if (!this.state.swipping) {
+            this.setState({ swipping: true });
+            if (e.deltaY < 0) {
+                this.setState({
+                    cursor: (this.state.cursor > this.state.min) ? this.state.cursor - 1 : this.state.min
+                });
+            } else if (e.deltaY > 0) {
+                this.setState({
+                    cursor: (this.state.cursor < this.state.max) ? this.state.cursor + 1 : this.state.max
+                });
+            }
+            setTimeout(() => {
+                this.setState({ swipping: false });
+            }, 1000);
+        }
     }
 
     handleKeyDown = (e) => {
-
-        // arrow up/down button should select next/previous list element
         if (e.keyCode === 38) {
             this.setState({
                 cursor: (this.state.cursor > this.state.min) ? this.state.cursor - 1 : this.state.min
             });
         } else if (e.keyCode === 40) {
             this.setState({
-                cursor: (this.state.cursor < this.state.max) ? this.state.cursor + 1 : this.state.min
+                cursor: (this.state.cursor < this.state.max) ? this.state.cursor + 1 : this.state.max
             });
         }
     }
 
     componentDidMount() {
-        // window.addEventListener('scroll', this.handleScroll, { passive: true })
-
+        this.setState({ pc: window.innerWidth > 760 });
+        window.addEventListener('wheel', this.handleScroll, { passive: true })
         window.addEventListener('keydown', this.handleKeyDown)
-
     }
 
     componentWillUnmount() {
-        //window.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('wheel', this.handleScroll);
+        window.removeEventListener('keydown', this.handleKeyDown)
     }
 
     render() {
         return (
             <div className="row">
-                {(this.state.cursor == 1) ?
+                {(this.state.cursor == 1 || !this.state.pc) ?
                     <div className="row" name="first">
                         <Fade top>
                             <div className="col-sm-12 col-md-6" >
@@ -69,7 +84,7 @@ class Home extends React.Component {
                         </Fade>
                     </div>
                     : null}
-                {(this.state.cursor == 2) ?
+                {(this.state.cursor == 2 || !this.state.pc) ?
                     <div className="row" name="second">
                         <Fade top>
                             <div className="col-sm-12 col-md-6">
@@ -83,7 +98,7 @@ class Home extends React.Component {
                         </Fade>
                     </div>
                     : null}
-                {this.state.cursor == 3 ?
+                {(this.state.cursor == 3 || !this.state.pc) ?
                     <div className="row" name="third">
                         <Fade top>
                             <div className="col-sm-12 col-md-6">
@@ -97,7 +112,7 @@ class Home extends React.Component {
                         </Fade>
                     </div>
                     : null}
-                {this.state.cursor == 4 ?
+                {(this.state.cursor == 4 || !this.state.pc) ?
                     <div className="row" name="fourth">
 
                         <Fade top>
@@ -113,7 +128,7 @@ class Home extends React.Component {
 
                     </div>
                     : null}
-                {this.state.cursor == 5 ?
+                {(this.state.cursor == 5 || !this.state.pc) ?
                     <div className="row" name="fifth">
 
 
@@ -129,7 +144,7 @@ class Home extends React.Component {
                         </Fade>
                     </div>
                     : null}
-
+                <Dots selected={this.state.cursor} />
             </div>)
     }
 }
