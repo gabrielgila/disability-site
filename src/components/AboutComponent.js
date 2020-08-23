@@ -2,16 +2,13 @@ import React from 'react';
 
 function About(props) {
     return(
-        <div className="container">
-            <div className="row">
-                <div className="col-12">
-                    <h3>Acerca de</h3>
-                    <hr />
-                </div>
-            </div>
+        <div className="row justify-content-center">
             <div>
-                <div className="col-12">
-                    <p>Este es un párrafo</p>
+                <div className="col-sm-12 col-md-6">
+                    <h1>asd</h1>
+                </div>
+                <div className="col-sm-12 col-md-6">
+                    <p>bla bla bla bla bla</p>
                 </div>
             </div>
         </div>

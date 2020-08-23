@@ -3,6 +3,7 @@ import { Switch, Route, Redirect } from 'react-router-dom';
 import About from "./AboutComponent";
 import Home from "./HomeComponent";
 import Header from './HeaderComponent';
+import Data from './DataComponent';
 
 function Main() {
     return (
@@ -12,7 +13,8 @@ function Main() {
             </div>
             <Switch>
                 <Route path="/inicio" component={Home} />
-                <Route exact path='/nosotros' component={About} />
+                <Route exact path='/recomendaciones' component={About} />
+                <Route exact path='/datosutiles' component={Data} />
                 <Redirect to="/inicio" />
             </Switch>
         </div>

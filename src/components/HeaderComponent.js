@@ -19,16 +19,10 @@ const Header = (props) => {
                             <NavLink href="/inicio">Inicio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/nosotros">Nosotros</NavLink>
+                            <NavLink href="/recomendaciones">Recomendaciones</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="">Link 1</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="">Link 2</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="">Link 3</NavLink>
+                            <NavLink href="/datosutiles">Datos útiles</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
