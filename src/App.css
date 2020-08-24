@@ -77,19 +77,19 @@
   }
 
   .img-height-60 {
-    height: 50vh
+      height: 50vh
   }
 
   .img-height-50 {
-    height: 45vh
+      height: 45vh
   }
 
   .img-height-55 {
-    height: 50vh
+      height: 50vh
   }
 
   .data-header {
-    margin-top: 40px;
+      margin-top: 50px;
   }
 }
 
@@ -297,14 +297,13 @@
 /* Data Component */
 
 .data-header {
-  height: 20vh;
   text-align: center;
   align-content: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
-  padding-bottom: 20px
+  padding-top: 90px;
+  padding-bottom: 40px
 }
 
 .data.title {
