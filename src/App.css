@@ -91,6 +91,10 @@
   .data-header {
       margin-top: 50px;
   }
+
+  .extra-title {
+    font-size: 1.3rem;
+  }
 }
 
 .row {
@@ -303,7 +307,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 90px;
-  padding-bottom: 40px
+  padding-bottom: 40px;
+  background-color: #21b590
 }
 
 .data.title {
@@ -348,3 +353,17 @@
   padding-left: 10px;
   font-size: 1.0rem
 }
+
+
+/* About & Data Title */
+.extra-title {
+  font-weight: 800;
+  text-align: right;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #0d0d0d;
+  color: white
+}
+

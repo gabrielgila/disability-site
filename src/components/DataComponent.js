@@ -8,8 +8,9 @@ function Data(props) {
                 <div className="col-0 ">
                     <div>
                         <div className="data-header col-12">
-                            <h3 className="data-title">ORGANISMOS, DATOS Y DIRECCIONES ÚTILES</h3>
+                            <h3 className="extra-title">ORGANISMOS, DATOS Y DIRECCIONES ÚTILES</h3>
                         </div>
+                        <hr />
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 col-sm-12 data-place">SECRETARÍA DE EXTENSIÓN</div>
