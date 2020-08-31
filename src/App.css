@@ -8,11 +8,11 @@
   }
 
   .paginationDots {
-    display: inline;
-    position: absolute;
-    right: 20px;
+    position: fixed;
+    left: 75%;
     bottom: 20px;
-    z-index: 1000
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
   }
 
   .img-height-60 {
@@ -372,5 +372,9 @@
 .extension-sign {
   font-size: 1rem;
   font-weight: 800
+}
+
+.tooltip{
+  font-size: 3rem;
 }
 
