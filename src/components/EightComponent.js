@@ -13,7 +13,7 @@ function Eight() {
                         <h5 className="strategy">PERSONAS CON</h5>
                         <img className="arrow"
                              src={`${process.env.PUBLIC_URL}/assets/images/arrow_white.png`}
-                             alt="Flecha Blanca"/>
+                             alt="Flecha Blanca" />
                     </div>
                     <h1 className="disability-word">DISCAPACIDAD</h1>
                     <h1 className="disability-word-heavy">FÍSICO <span className="disability-word">/</span> MOTORA</h1>

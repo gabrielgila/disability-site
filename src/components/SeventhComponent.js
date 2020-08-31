@@ -8,7 +8,7 @@ function Seventh() {
                 <div className="col-12">
                     <img className="img-height-55"
                          src={`${process.env.PUBLIC_URL}/assets/images/image_physic.png`}
-                         alt="Imagen Fisico Motora"/>
+                         alt="Imagen Físico Motora"/>
                 </div>
             </div>
         </div>

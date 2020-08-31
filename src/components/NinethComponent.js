@@ -8,7 +8,7 @@ function Nineth() {
                 <div className="col-12">
                     <img className="img-height-55"
                          src={`${process.env.PUBLIC_URL}/assets/images/image_visceral.png`}
-                         alt="InicioImagen"/>
+                         alt="Imagen Discapacidad Visceral"/>
                 </div>
             </div>
         </div>

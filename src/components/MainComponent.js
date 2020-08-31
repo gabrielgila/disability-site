@@ -13,7 +13,7 @@ function Main() {
             </div>
             <Switch>
                 <Route path="/inicio" component={Home} />
-                <Route exact path='/recomendaciones' component={About} />
+                <Route exact path='/acercade' component={About} />
                 <Route exact path='/datosutiles' component={Data} />
                 <Redirect to="/inicio" />
             </Switch>

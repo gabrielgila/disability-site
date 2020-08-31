@@ -11,7 +11,7 @@ function First() {
                         <div className="col-12">
                             <img className="img-height-60"
                                  src={`${process.env.PUBLIC_URL}/assets/images/home_image.png`}
-                                 alt="InicioImagen"/>
+                                 alt="Imagen Inicio"/>
                         </div>
                     </Fade>
                 </div>

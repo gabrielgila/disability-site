@@ -10,7 +10,7 @@ function Third() {
                         <div>
                             <img className="img-height-50"
                                     src={`${process.env.PUBLIC_URL}/assets/images/image_hear.png`}
-                                    alt="InicioImagen"/>
+                                    alt="Imagen Discapacidad Auditiva"/>
                         </div>
                     </div>
                 </div>

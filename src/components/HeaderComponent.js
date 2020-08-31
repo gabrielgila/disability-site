@@ -19,7 +19,7 @@ const Header = (props) => {
                             <NavLink href="/inicio">Inicio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/recomendaciones">Recomendaciones</NavLink>
+                            <NavLink href="/acercade">Acerca de esta Guía</NavLink>
                         </NavItem>
                         <NavItem>
                             <NavLink href="/datosutiles">Datos útiles</NavLink>

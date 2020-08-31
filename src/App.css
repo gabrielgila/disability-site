@@ -194,19 +194,20 @@
 }
 
 .disability-word {
-  padding-top: 20px;
-  font-weight: 500;
-  text-align: center;
-  color: black;
-  margin: 0 0 0 0
+    padding-top: 20px;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+    margin: 0 0 0 0
 }
 
 .disability-word-heavy {
-  font-weight: 900;
-  text-align: center;
-  color: black;
-  margin: 0 0 0 0;
-  line-height: 1.1
+    font-weight: 900;
+    font-size: 2.1rem;
+    text-align: center;
+    color: black;
+    margin: 0 0 0 0;
+    line-height: 1.1
 }
 
 
@@ -365,5 +366,11 @@
   padding-right: 15px;
   background-color: #0d0d0d;
   color: white
+}
+
+/* Extension Sign - About */
+.extension-sign {
+  font-size: 1rem;
+  font-weight: 800
 }
 

@@ -8,7 +8,7 @@ function Fifth() {
                 <div className="col-12">
                     <img className="img-height-50"
                          src={`${process.env.PUBLIC_URL}/assets/images/image_vision.png`}
-                             alt="InicioImagen"/>
+                             alt="Imagen Discapacidad Visual"/>
                 </div>
             </div>
         </div>
