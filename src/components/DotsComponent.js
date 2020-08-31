@@ -1,5 +1,4 @@
 import React from 'react';
-import { Tooltip } from 'reactstrap';
 
 function Dots(props) {
 

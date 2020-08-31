@@ -10,19 +10,19 @@ const Header = (props) => {
         <div>
             <Navbar fixed="top" light expand="md">
                 <NavbarBrand href="/" className="">
-                    <Logo height={60} />
+                    <Logo height={60} alt="Logo Unicen" />
                 </NavbarBrand>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                            <NavLink href="/inicio">Inicio</NavLink>
+                            <NavLink href="/inicio" data-toggle="tooltip" data-placement="top" title="Inicio">Inicio</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/acercade">Acerca de esta Guía</NavLink>
+                            <NavLink href="/acercade" data-toggle="tooltip" data-placement="top" title="Acerca de esta Guía">Acerca de esta Guía</NavLink>
                         </NavItem>
                         <NavItem>
-                            <NavLink href="/datosutiles">Datos útiles</NavLink>
+                            <NavLink href="/datosutiles" data-toggle="tooltip" data-placement="top" title="Datos útiles">Datos útiles</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>
