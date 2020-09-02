@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactTooltip from "react-tooltip";
-import {NavLink} from "reactstrap";
 
 function Dots(props) {
 

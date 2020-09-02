@@ -34,8 +34,8 @@ function Fourth() {
                         <hr />
                     </div>
                     <div className="pt-3">
-                        <Button color="secondary" className="btn rounded-pill btn-shadow">
-                            <h5 className="button-text-white">Descargar Guía</h5>
+                        <Button color="secondary" className="btn rounded-pill btn-shadow" href="http://extension.unicen.edu.ar/blog/wp-content/uploads/2020/09/guia.pdf" target="_blank">
+                            <div className="button-text-white">Descargar Guía</div>
                         </Button>
                     </div>
                 </div>
