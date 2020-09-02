@@ -24,8 +24,11 @@ class Home extends React.Component {
             swipping: false,
             isDesktop: false
         };
-
         this.updatePredicate = this.updatePredicate.bind(this);
+    };
+
+    changeDot = (dot) => {
+        this.setState({ cursor: dot });
     };
 
     handleScroll = (e) => {
@@ -154,7 +157,7 @@ class Home extends React.Component {
                                     </Fade>
                                 </div>
                                 : null}
-                            <Dots selected={this.state.cursor} />
+                            <Dots selected={this.state.cursor} dotLink={this.changeDot}/>
                         </div>
                     </div>
                 ) : (<div>
