@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
+import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import { ReactComponent as Logo } from '../logo/Unicen_logo2.svg';
 import ReactTooltip from "react-tooltip";
 
@@ -9,7 +9,7 @@ const Header = (props) => {
 
     return (
         <div>
-            <Navbar fixed="top" light expand="md">
+            <Navbar fixed="top" light expand="md" className={window.location.href.search("inicio") > -1 ? 'home' : 'nohome'} >
                 <NavbarBrand href="/" className="">
                     <Logo height={60} alt="Logo Unicen" />
                 </NavbarBrand>

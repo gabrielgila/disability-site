@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 function About(props) {
-    return(
+    return (
         <div className="justify-content-center">
             <Fade left>
                 <div className="data-header col-12">
@@ -55,8 +55,7 @@ function About(props) {
                         <br />
                         <br />
                     </p>
-                    <div className="extension-sign">Secretaría de Extensión</div>
-                    <div className="extension-sign">Universidad Nacional del Centro de la Provincia de Buenos Aires</div>
+
                     <hr />
                 </div>
             </Fade>

@@ -2,7 +2,7 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 
 function Data(props) {
-    return(
+    return (
         <div className="justify-content-center">
             <Fade left>
                 <div className="col-0 ">
@@ -21,7 +21,7 @@ function Data(props) {
                                 <hr />
                                 <h5 className="ref-heavy">Referente Fabián Melo</h5>
                                 <h5 className="data-contact">
-                                    Yrigoyen 662 1er piso o. 2,
+                                    Yrigoyen 662 1er piso,
                                     Tel. 0249 4444555 int. 1555
                                 </h5>
                                 <hr />
@@ -37,9 +37,9 @@ function Data(props) {
                         <div className="container justify-content-center">
                             <hr />
                             <h5 className="data-info" >Departamento de Trabajo
-                                Social, De. de Salud,
-                                Programa de Becas
-                                Residencias Universitarias.
+                            Social, De. de Salud,
+                            Programa de Becas
+                            Residencias Universitarias.
                             </h5>
                             <hr />
                             <h5 className="ref-heavy">Referente Sandra Pantusa</h5>

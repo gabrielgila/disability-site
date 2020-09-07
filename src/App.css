@@ -4,6 +4,13 @@
   * {
     -ms-overflow-style: none;
   }
+  .home{
+    
+  }
+
+  .nohome{
+    background-color: #21b590;
+  }
 
   ::-webkit-scrollbar {
     display: none;
@@ -12,7 +19,7 @@
   .paginationDots {
     position: fixed;
     left: 75%;
-    bottom: 20px;
+    bottom: 0px;
     transform: translate(-50%, -50%);
     margin: 0 auto;
   }

@@ -31,7 +31,7 @@ function Tenth() {
                         <hr />
                     </div>
                     <div className="pt-3">
-                        <Button className="btn button-color-yellow rounded-pill btn-shadow" href="http://extension.unicen.edu.ar/blog/wp-content/uploads/2020/09/guia.pdf" target="_blank">
+                        <Button className="btn button-color-yellow rounded-pill btn-shadow" href="https://bit.ly/guia-discapacidad-unicen" target="_blank">
                             <h5 className="button-text-dark">Descargar Guía</h5>
                         </Button>
                     </div>
